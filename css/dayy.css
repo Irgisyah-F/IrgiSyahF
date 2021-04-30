@@ -9,7 +9,45 @@ a {
 .medsos ul li {
 	display: inline-block;
 	color: #fff;
-	margin-right: 20px;
+	margin-right: 15px;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+header{
+	border: 1px solid;
+	border-color: #fff;
+}
+header h1 {
+	float:left;
+	padding: 15px 0px;
+	color: #fff;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	padding: 25px 20px;
+	display: inline-block;
+	color: #fff;
+}
+header ul li a:hover {
+	background-color: #212145;
+	background-color: rgba(128, 128, 255, .6);
+	color: #fff;
+}
+.active {
+	background-color: #212145;
+	color: #fff;
 }
 .banner {
 	height: 80vh;
@@ -35,4 +73,102 @@ a {
 	z-index: 1;
 	padding: 20px 25px;
 	border: 3px solid #fff;
+}
+section {
+	padding: 50px 0px;
+}
+section h3 {
+	text-align: center;
+	padding: 20px 0px;
+	color: #fff;
+	margin-bottom: 25px;
+}
+.about,
+.service {
+	padding-bottom: 100px;
+}
+.about p {
+	color :#fff;
+	word-spacing: 2px;
+	line-height: 25px;
+	background-color: #212145;
+	background-color: rgba(33, 33, 69, .5);
+}
+.about h3 {
+	color :#fff;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.about {
+	color : #fff;
+	word-spacing: 2px;
+	line-height: 20px;
+	background-color: #212145;
+	background-color: rgba(33, 33, 69, .4);
+}
+.service {
+	color: #fff;
+	z-index: 1;
+	background-color:#4d4dff;
+	background-color: rgba(128, 128, 255, .6);
+}
+.contact {
+	background-color:#4d4dff;
+	background-color: rgba(128, 128, 255, .6);
+}
+.box {
+	color: #fff;
+}
+.box: after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.box .col-4 {
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.icon {
+	width: 70px;
+	height: 70px;
+	border: 1px solid;
+	border-radius: 45%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	margin: 0 auto;
+}
+.box .col-4 h4 {
+	margin: 10px 0;
+}
+.pengalamanpjj {
+	background-color: #212145;
+	background-color: rgba(33, 33, 69, .5);
+}
+footer {
+	padding: 35px 0;
+	background-color: #333;
+	color: #fff;
+	background-color: rgba(51, 51, 51, .6);
+}
+@media screen and (max-width: 768px){
+	.container {
+		width: 100%;
+	}
+	header h1 {
+		text-align: center;
+		float: none;
+	}
+	header ul {
+		text-align: center;
+		float: none;
+	}
+	.box .col-4 {
+		width: 100%;
+		float: none;
+		margin-bottom: 10px;
+	}
 }
